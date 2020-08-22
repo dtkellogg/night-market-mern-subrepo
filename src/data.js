@@ -1,58 +1,81 @@
 const friends = ["tom", "bob", "jim"];
 export default friends;
 
+export const sponsors = [
+  {
+    name: "Dickeys",
+    avatar: require("./img/svg/partner__dickeys.svg"),
+  },
+  {
+    name: "Chickpeas",
+    avatar: require("./img/svg/partner__chickpeas.svg"),
+  },
+  {
+    name: "Davis Co-op",
+    avatar: require("./img/svg/partner__coOp.svg"),
+  },
+  {
+    name: "Barista",
+    avatar: require("./img/svg/partner__barista.svg"),
+  },
+  {
+    name: "Upper Crust",
+    avatar: require("./img/svg/partner__upperCrust.svg"),
+  },
+];
+
 export const members = [
   {
     name: "Helena",
-    avatar: "../public/img/team/Helena.webp",
+    avatar: require("./img/team/Helena.webp"),
   },
   {
     name: "Ernst",
-    avatar: "../public/img/team/Ernst.webp",
+    avatar: require("./img/team/Ernst.webp"),
   },
   {
     name: "Val",
-    avatar: "../public/img/team/Val.webp",
+    avatar: require("./img/team/Val.webp"),
   },
   {
     name: "Max",
-    avatar: "../public/img/team/Max.webp",
+    avatar: require("./img/team/Max.webp"),
   },
   {
     name: "Ania",
-    avatar: "../public/img/team/Ania.webp",
+    avatar: require("./img/team/Ania.webp"),
   },
   {
     name: "Artie",
-    avatar: "../public/img/team/Artie.webp",
+    avatar: require("./img/team/Artie.webp"),
   },
   {
     name: "Uta",
-    avatar: "../public/img/team/Uta.webp",
+    avatar: require("./img/team/Uta.webp"),
   },
 
   {
     name: "Hannah",
-    avatar: "../public/img/team/Hannah.webp",
+    avatar: require("./img/team/Hannah.webp"),
   },
   {
     name: "Maria",
-    avatar: "../public/img/team/Maria.webp",
+    avatar: require("./img/team/Maria.webp"),
   },
   {
     name: "Xinyu",
-    avatar: "../public/img/team/Xinyu.webp",
+    avatar: require("./img/team/Xinyu.webp"),
   },
   {
     name: "Sarah",
-    avatar: "../public/img/team/Sarah.webp",
+    avatar: require("./img/team/Sarah.webp"),
   },
   {
     name: "Jordan",
-    avatar: "../public/img/team/Jordan.webp",
+    avatar: require("./img/team/Jordan.webp"),
   },
   {
     name: "Evan",
-    avatar: "../public/img/team/Evan.webp",
+    avatar: require("./img/team/Evan.webp"),
   },
 ];

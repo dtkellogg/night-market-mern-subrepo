@@ -6,8 +6,14 @@ function CustomLink({ to, children }) {
   const match = useRouteMatch(to.pathname);
 
   return (
-    <li style={{ fontWeight: match ? 900 : "normal" }}>
-      <Link to={to}>{children}</Link>
+    <li
+      style={{
+        fontWeight: match ? 900 : "normal",
+      }}
+    >
+      <Link className={{ color: match ? "blue" : "white" }} to={to}>
+        {children}
+      </Link>
     </li>
   );
 }
